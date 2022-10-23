@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style43.css">
+</head>
+<body>
+  <div class="nav">
+  <div class="input-box">
+      <input class="form-control w-50" type="text" placeholder="Qanday kino?">
+      <button class="btn btn-danger" onclick="search_func()">Qidirish</button>
+  </div>
+</div>
+  <div class="container kino-box">
+<img src="guy.jpg" alt="">
+  </div>
+
+  <script>
+      if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js')
+      }
+  </script>
+  
+
+  
+  <script src="bootstrap.min.js"></script>
+
+<script src="jquery-3.6.1.min.js"></script>
+
+
+  <script src="main.js"></script>
+
+
+
+</body></html>
